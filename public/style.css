@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.videos {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+video {
+  width: 400px;
+  background: #111;
+  border-radius: 8px;
+}
+
+#join-panel {
+  margin-top: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
