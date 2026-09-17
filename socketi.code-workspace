@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../socketi"
+		},
+		{
+			"path": "../chat-client"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

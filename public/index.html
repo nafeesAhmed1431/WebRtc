@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>WebRTC Demo</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>WebRTC 1:1 Call</h1>
+
+  <div id="join-panel">
+    <input id="room-input" placeholder="Room ID" value="test-room" />
+    <button id="join-btn">Join</button>
+  </div>
+
+  <div id="call-panel" hidden>
+    <div class="videos">
+      <video id="local-video" autoplay playsinline muted></video>
+      <video id="remote-video" autoplay playsinline></video>
+    </div>
+    <p id="status">Connecting...</p>
+  </div>
+
+  <script src="client.js"></script>
+</body>
+</html>
